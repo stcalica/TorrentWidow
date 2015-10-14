@@ -38,17 +38,27 @@ crontab/windows instructions
 __author__ = "Kyle Calica"
 
 import scrapy 
-
+import json
+import pprint
+from torrent import Torrent
 
 class TorrentSpider(scrapy.Spider):
 	name = "TorrentSpider"
 	start_urls = ["https://www.kat.cr"]
 
-
-
 	def parse(self, resp):
+		log = open('spider.log', "a+") 
 		#must read the crawling.config 
+		with open('crawling.config') as config: 
+			try:
+				config = json.load(config)
+				#print(config["torrents"][0]["type"]) 
+			except ValueError, e:
+				log.write("\nError during JSON file parsing: \n")
+				log.write(str(e)) 
+				sys.exit()
+
+				
 		#add magnet links to the spiderweb.json 
-		#how to parse and navigate through i am guessing 
-		pass 
+		return
 
