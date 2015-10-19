@@ -1,0 +1,56 @@
+2015-10-19 14:49:24 [scrapy] INFO: Scrapy 1.0.3 started (bot: blackwidow)
+2015-10-19 14:49:24 [scrapy] INFO: Optional features available: ssl, http11
+2015-10-19 14:49:24 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'blackwidow.spiders', 'FEED_URI': 'torrents.json', 'SPIDER_MODULES': ['blackwidow.spiders'], 'BOT_NAME': 'blackwidow', 'FEED_FORMAT': 'json', 'LOG_FILE': 'log.txt'}
+2015-10-19 14:49:24 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-10-19 14:49:25 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-10-19 14:49:25 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-10-19 14:49:25 [scrapy] INFO: Enabled item pipelines: 
+2015-10-19 14:49:25 [scrapy] INFO: Spider opened
+2015-10-19 14:49:25 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-10-19 14:49:25 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-10-19 14:49:25 [scrapy] DEBUG: Redirecting (301) to <GET https://kat.cr/usearch/Arrow%20category:tv/> from <GET https://kat.cr/usearch/Arrow%20category%3Atv>
+2015-10-19 14:49:25 [scrapy] DEBUG: Redirecting (301) to <GET https://kat.cr/usearch/Heroes%20Reborn%20category:tv/> from <GET https://kat.cr/usearch/Heroes%20Reborn%20category%3Atv>
+2015-10-19 14:49:25 [scrapy] DEBUG: Redirecting (301) to <GET https://kat.cr/usearch/Walking%20Dead%20category:tv/> from <GET https://kat.cr/usearch/Walking%20Dead%20category%3Atv>
+2015-10-19 14:49:25 [scrapy] DEBUG: Redirecting (301) to <GET https://kat.cr/usearch/The%20Flash%20category:tv/> from <GET https://kat.cr/usearch/The%20Flash%20category%3Atv>
+2015-10-19 14:49:25 [scrapy] DEBUG: Crawled (200) <GET https://kat.cr/usearch/Heroes%20Reborn%20category:tv/> (referer: None)
+2015-10-19 14:49:25 [scrapy] DEBUG: Crawled (200) <GET https://kat.cr/usearch/Walking%20Dead%20category:tv/> (referer: None)
+2015-10-19 14:49:26 [scrapy] DEBUG: Scraped from <200 https://kat.cr/usearch/Walking%20Dead%20category:tv/>
+{'magnet': u'magnet:?xt=urn:btih:5B34A431382E62A0EC05AEF527F79968FEDFA23B&dn=the+walking+dead+s06e02+hdtv+x264+fum+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337',
+ 'title': u'/the-walking-dead-s06e02-hdtv-x264-fum-ettv-t11434753.html',
+ 'url': 'https://kat.cr/usearch/Walking%20Dead%20category:tv/'}
+2015-10-19 14:49:26 [scrapy] DEBUG: Scraped from <200 https://kat.cr/usearch/Heroes%20Reborn%20category:tv/>
+{'magnet': u'magnet:?xt=urn:btih:34CDAEDE7523CAA401415CCD31A6B4D2606B3B02&dn=heroes+reborn+s01e05+internal+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337',
+ 'title': u'/heroes-reborn-s01e05-internal-hdtv-x264-killers-ettv-t11419304.html',
+ 'url': 'https://kat.cr/usearch/Heroes%20Reborn%20category:tv/'}
+2015-10-19 14:49:26 [scrapy] DEBUG: Crawled (200) <GET https://kat.cr/usearch/The%20Flash%20category:tv/> (referer: None)
+2015-10-19 14:49:26 [scrapy] DEBUG: Crawled (200) <GET https://kat.cr/usearch/Arrow%20category:tv/> (referer: None)
+2015-10-19 14:49:26 [scrapy] DEBUG: Scraped from <200 https://kat.cr/usearch/The%20Flash%20category:tv/>
+{'magnet': u'magnet:?xt=urn:btih:B115F4F2DAF4BAAF0FE4270653E69DC4F69EB3D2&dn=the+flash+2014+s02e02+hdtv+x264+lol+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337',
+ 'title': u'/the-flash-2014-s02e02-hdtv-x264-lol-ettv-t11408457.html',
+ 'url': 'https://kat.cr/usearch/The%20Flash%20category:tv/'}
+2015-10-19 14:49:26 [scrapy] DEBUG: Scraped from <200 https://kat.cr/usearch/Arrow%20category:tv/>
+{'magnet': u'magnet:?xt=urn:btih:A63A6B4604B0D55F7B9DDCAF3DBF891AE80AF427&dn=arrow+s04e02+hdtv+x264+lol+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337',
+ 'title': u'/arrow-s04e02-hdtv-x264-lol-ettv-t11414109.html',
+ 'url': 'https://kat.cr/usearch/Arrow%20category:tv/'}
+2015-10-19 14:49:26 [scrapy] INFO: Closing spider (finished)
+2015-10-19 14:49:26 [scrapy] INFO: Stored json feed (4 items) in: torrents.json
+2015-10-19 14:49:26 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2010,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 58982,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 4,
+ 'downloader/response_status_count/301': 4,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 10, 19, 21, 49, 26, 180000),
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 8,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 8,
+ 'scheduler/dequeued/memory': 8,
+ 'scheduler/enqueued': 8,
+ 'scheduler/enqueued/memory': 8,
+ 'start_time': datetime.datetime(2015, 10, 19, 21, 49, 25, 291000)}
+2015-10-19 14:49:26 [scrapy] INFO: Spider closed (finished)

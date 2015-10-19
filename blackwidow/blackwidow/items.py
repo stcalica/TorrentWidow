@@ -8,7 +8,7 @@
 import scrapy
 
 
-class TorrentItem(scrapy.Item):
-	title = Field() 
-	url = Field() 
-	magnet = Field() 
+class BlackwidowItem(scrapy.Item):
+	title = scrapy.Field()
+	magnet = scrapy.Field()
+	url = scrapy.Field()
