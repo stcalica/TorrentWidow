@@ -1,0 +1,12 @@
+verision: '2'
+spider: 
+  container_name: spider 
+  build: ./blackwidow
+  volumes: 
+    -  ./blackwidow/torrents.json : /usr/app/src/data
+downloader: 
+  container_name: downloader
+  build: . 
+  volumes: 
+   - ./blackwidow/torrents.json : /usr/app/src/data
+   - ./log : usr/app/src/log 
